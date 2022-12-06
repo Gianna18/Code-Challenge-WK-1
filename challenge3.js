@@ -2,8 +2,8 @@
 //IF STATEMENT
 // VARIABLE ASSIGNMENT
 function netSalary() {
-    let grossSalary = prompt('Input basic salary');
-    let benefits = prompt('input benefits');
+    let grossSalary = prompt('Kindly input basic salary');
+    let benefits = prompt('Kindly input benefits');
     let basicSalary = grossSalary - benefits;
 //PAYE DEDUCTIONS
     if(basicSalary<= 24000) {

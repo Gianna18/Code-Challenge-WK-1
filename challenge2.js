@@ -12,7 +12,7 @@
 
 // Use IF STATEMENT and the prompt Keyword to find out how many point(s) the user has for going above the speed limit.
 // Declare the Function
-let speed = prompt("Input speed");
+
 function checkSpeed() {
 if (speed <=70) {
     console.log("Ok");
@@ -23,3 +23,5 @@ if (speed <=70) {
     console.log(`Points:${points}`)
 }
 }
+let speed = prompt("Input speed");
+checkSpeed()
