@@ -3,7 +3,7 @@
 //Declare the function
 // Use IF statement to find out the grade to input for each mark.
 
- let average = prompt('Input marks')
+
  function studentMarks() {
     if (average > 79) {
     console.log("A"); 
@@ -17,11 +17,11 @@
     else if (average >= 49 && average <= 40) {
     console.log("D");
 } 
-    else if (average <40) ;{
+    else {
     console.log("E");
-
 }
  }
+ let average = prompt('Input marks')
 studentMarks()
 
 
